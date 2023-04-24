@@ -1,0 +1,11 @@
+--lex--
+flex filename.l
+gcc .\lex.yy.c
+a.exe
+
+
+--yacc--
+flex filename.l
+bison -dy filename.y
+gcc lex.yy.c y.tab.c
+a.exe
