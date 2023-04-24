@@ -10,7 +10,7 @@ int main() {
   printf("3. Generate leap years\n");
   scanf("%d", &choice);
 
-  printf("Enter the value of n: ");
+  printf("Enter the value ofqe n: ");
   scanf("%d", &n);
 
   switch (choice) {
